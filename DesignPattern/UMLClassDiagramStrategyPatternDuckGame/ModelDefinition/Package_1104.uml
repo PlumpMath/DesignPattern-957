@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fd966d99-28ee-4a15-94a7-656a73f5c10f"
+  name="StrategyPatternDuckGameExample"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="590bb719-e96c-463d-9e51-c1249b5408ce"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DStrategyPatternDuckGameExample"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="754847e8-7432-4b8a-af9d-cd03e5ff42dc"
+        name="RubberDuck"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="db315ad4-a12b-4d50-b483-81c1a1544eb1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRubberDuck"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b8174f29-8798-49bb-89c0-c19d2c7db900"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78ab71f2-0e38-4293-af2d-b73e827dc716">
+                <propertyInstance
+                  Id="96292efa-5ed7-483d-8912-a4aaf57cf8f1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c2973f9-af5f-47f4-9d9c-ad21fbf29fa3">
+                <propertyInstance
+                  Id="25a3c2a7-c633-4e15-b711-8ef958bfec0e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f365ff93-70c0-4b34-b080-b83925e3c973">
+                <propertyInstance
+                  Id="1362e4ac-ab45-4a49-89f3-699d024694e5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c286b845-29b2-40ba-af43-dae696339b9b">
+                <propertyInstance
+                  Id="31afdf27-9aee-4d36-8fe2-6b0d0286352e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fbc5693e-8cad-4b84-984c-cc527241ec20">
+                <propertyInstance
+                  Id="32266898-a430-4586-81fd-aa04cf70afe3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="434593b0-d90a-4f13-81a3-95edd4ef5144"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cec41b1d-eed6-4b4c-b2ba-c267d6d1d688"
+              LastKnownName="Duck"
+              LastKnownLocation="Package_1104.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="06e50b31-ab50-492a-9676-cbc85c9fcfb7"
+            name="RubberDuck"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22d43891-4829-410d-82b9-ca59a3529201"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRubberDuck Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e11b7bb-25e5-4170-a6bc-09ed0efe4a40"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ad3f13b-b057-4a76-807b-1e585510a756">
+                    <propertyInstance
+                      Id="6ecbe650-797e-4ddb-bd35-db83a1044dcd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a8677e5-3c0a-4b36-8c39-fd25b0c07abc">
+                    <propertyInstance
+                      Id="bc6ed3a5-fc22-41bc-9127-3e0de4554219"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12899353-8f29-4084-a997-6370dea681dd">
+                    <propertyInstance
+                      Id="0ba588c2-bdd0-475a-a87a-0404b2e82517"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f70da262-cf4d-4a4f-86c2-0120a4aa3e0a">
+                    <propertyInstance
+                      Id="18760ddb-0264-4156-b704-1145dc45234d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4be00b03-604f-4b8f-9255-ad8d2e401c4a">
+                    <propertyInstance
+                      Id="090f4662-dcbd-419d-852a-1fcef567ef52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cbf5b77-2099-4999-bad2-4d121796cbc4">
+                    <propertyInstance
+                      Id="8f3d8585-0425-42aa-8840-136465392cf6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="386bb9b1-8d32-4ddc-940b-8a0fddddf56a"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22a4c9c8-d542-4404-b2bf-270b3e01dd32"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRubberDuck Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ddf2376a-9cda-4063-abea-29f84cc3617f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9052099-89fc-4019-8ffc-9ac980b06483">
+                    <propertyInstance
+                      Id="6474b352-cc68-4474-a338-4098cc79b2b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb5facd8-578c-4eb0-9adb-c5628df2b98e">
+                    <propertyInstance
+                      Id="f2b2a80d-ed4b-4da8-936a-749505999e2e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b352f9b1-c57f-4461-a9ec-885fcadadf05">
+                    <propertyInstance
+                      Id="87a1c364-4e09-4bb1-90a4-f46804c2a78f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e08adddf-47e2-4e71-8aa8-1b7238783159">
+                    <propertyInstance
+                      Id="aba74cc2-ebca-4772-9cc4-33ffb54292eb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f8aa7cf-30ce-47e3-98df-768706c786c1">
+                    <propertyInstance
+                      Id="4eba2b95-4c8b-4ae9-871f-a8f9ff8a6c6e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b9ff8b4-d6a8-492d-99b9-ebd827da47b9">
+                    <propertyInstance
+                      Id="f9e7085e-ca8b-4059-b071-0f21cc175035"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cec41b1d-eed6-4b4c-b2ba-c267d6d1d688"
+        name="Duck"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4d175e02-9956-4cf7-b4f1-f3a86b0d5bdf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0876ea42-b076-4c01-9a56-17a5608cbf3b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab8cdd15-af6b-4d9d-905f-f346e7b71347">
+                <propertyInstance
+                  Id="4bb38128-00ad-492c-b444-135ca98452d3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df67bf90-7194-4578-a9bc-183eef4953d3">
+                <propertyInstance
+                  Id="82c923f7-c2ad-454b-a4d3-b710d35ba9a1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7844bcb8-23b8-46bf-befb-b47eb4d8fb31">
+                <propertyInstance
+                  Id="e3c02f13-bd95-47b2-ade2-a88a3b46144f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="759db70a-abb1-4840-8e9b-ad5c844a5d32">
+                <propertyInstance
+                  Id="77048184-71fc-4cc8-aa74-8022e831760d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80751fdb-1321-44fc-82cd-e01fd121a9b7">
+                <propertyInstance
+                  Id="3bf2cb97-fd48-4cc3-80c6-49b35db554e8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="5dd87c8b-b0d9-44d1-a7c8-0b5e84ccac63"
+            isDerived="false"
+            sourceEndRoleName="Duck"
+            targetEndRoleName="flyBehaviour"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="bd357cb3-1320-4b0b-9032-f799db603658"
+              LastKnownName="IFlyBehaviour"
+              LastKnownLocation="Package1_1104.uml" />
+            <description>Property flyBehaviour references type IFlyBehaviour.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="225dbe08-819c-43d1-be8b-9353f85b74f6"
+                  name="Duck"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a68f9387-f694-4d60-8c77-4f3d9463516a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2c74a267-b26d-4741-97b3-d96767ef8d0e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc7699ac-0f17-4bb6-bfe8-ab5e4484bad3"
+                  name="flyBehaviour"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8950ba94-c6f8-4789-a64e-d8b750c9e5cd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7f9176af-9db8-4c3b-8d3b-36b7aa87dc0d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a4287399-2bc0-4ed8-a8f5-6773c8bb1af9"
+            isDerived="false"
+            sourceEndRoleName="Duck"
+            targetEndRoleName="quackBehaviour"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="cf8c433c-5b68-46c2-88b4-89487d4d8f8d"
+              LastKnownName="IQuackBehaviour"
+              LastKnownLocation="Package1_1104.uml" />
+            <description>Property quackBehaviour references type IQuackBehaviour.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fee51f50-80eb-4f20-9a2b-ab7846de0b48"
+                  name="Duck"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9912561f-df73-41c9-8d7a-d0092b5c9948"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4b70b39f-483a-413d-9f02-169e1049d1f8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6c4dfa05-84d7-4e14-8595-dec6a1ca9305"
+                  name="quackBehaviour"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="05ac3fc5-e91e-403b-8d84-2ef3cbb3e474"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="02c61c5e-c660-4ed9-a8d4-cbcfbe55eabc"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="b6bea6f1-0f50-4c78-9ebe-e5b4c0349531"
+            name="flyBehaviour"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="121f668a-e583-477a-8e55-f3b11242926e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DflyBehaviour"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="544d9c97-8d55-43a3-aa4d-6b38226df023"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6eab03c-6447-4476-b87b-1a847f85ab3c">
+                    <propertyInstance
+                      Id="49f28d82-f9b5-4d79-bfd9-fbdf1eae6182"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9cbe9e9-d2f4-4365-b5a5-ccdc812fb6e0">
+                    <propertyInstance
+                      Id="b570cc94-7e6a-431b-9d7f-4754e9c10733"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31130cf4-9750-49b6-8880-2341a256adef">
+                    <propertyInstance
+                      Id="e1ad2094-eb56-4a13-a0d5-b1b1dccf2f3c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afbf1c98-01ba-45b9-a317-0086496bfeb4">
+                    <propertyInstance
+                      Id="0467a351-f5c5-4cfb-93bd-d864310cb74e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c22c7de-0486-4af6-aa64-202ca61074c7">
+                    <propertyInstance
+                      Id="b3a3fceb-c78b-4f82-a48e-5e1f6ad56290"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b4e8e8f-87f9-4ecb-95bc-8533b4186f39">
+                    <propertyInstance
+                      Id="222a919c-5793-44a1-9f51-b051ae77faa1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46fba9db-2c80-457c-ba5f-4e1adb578441">
+                    <propertyInstance
+                      Id="f20d91f6-caec-4d3c-9b6c-c1d56bf019bd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="bd357cb3-1320-4b0b-9032-f799db603658"
+                LastKnownName="IFlyBehaviour"
+                LastKnownLocation="Package1_1104.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9a9c8c02-d7d5-49c1-8e4d-fe87cd74b88f"
+            name="quackBehaviour"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="96e638f4-47bd-4e3d-b570-f1a5d460945b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DquackBehaviour"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="529823b4-5817-4b4d-96b1-d583581ad658"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="852a01a7-252a-4e9a-9c50-ac89751fae14">
+                    <propertyInstance
+                      Id="dce37bc3-75e1-49e1-84d1-410a94cc066f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62d4e5a9-84ce-481e-8601-d405d9faed36">
+                    <propertyInstance
+                      Id="f99557c7-2a48-428d-b602-d40556c8fc38"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c7833f7-75c0-4935-b6a3-e450d35a66f7">
+                    <propertyInstance
+                      Id="a8bfca05-f51c-476c-b856-f31395916b2e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4222e75-12d3-4fb7-9849-3300e457e739">
+                    <propertyInstance
+                      Id="ffaad0b8-1b1d-4941-b97d-1b2521b97a6e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdfdd66b-67d2-40a4-8bf7-823ee542706d">
+                    <propertyInstance
+                      Id="41f48288-5bc0-47bf-be60-e77344616ff5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="359356f6-a0bf-4b87-97d9-76d284f52f3d">
+                    <propertyInstance
+                      Id="5a54aea8-43b4-4dca-84d6-adc5cf286b26"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="096097ec-f7e8-493d-9ad4-cfe85e9b0593">
+                    <propertyInstance
+                      Id="36ea874a-f6fc-4e9e-a2f7-013633afcbfa"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="cf8c433c-5b68-46c2-88b4-89487d4d8f8d"
+                LastKnownName="IQuackBehaviour"
+                LastKnownLocation="Package1_1104.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c14002c5-bd43-41ab-b299-1cb11d47f406"
+            name="Duck"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ebe7ecf4-8b3a-45c7-b78a-707b87795326"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="19cc8887-1493-4e88-a136-0313702cc169"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75e163b7-e4ce-42eb-9820-ee26eee68333">
+                    <propertyInstance
+                      Id="813f8cf3-acc5-4bee-b54c-2857345f3740"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05baeffc-0fa4-4bea-9d22-847fbc03b601">
+                    <propertyInstance
+                      Id="3c90bdf8-65fa-4a4c-bff1-69f42c1100e6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80276d09-1932-402c-a0f3-4b0821858bbd">
+                    <propertyInstance
+                      Id="6781f9b2-bf26-47db-92bf-51affa0c04bc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b417c59-60c8-4419-ae9b-954a1b30fe96">
+                    <propertyInstance
+                      Id="e71ea879-6d96-441b-a5b3-0451badda1ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31f2a8b3-6374-482c-b9db-5d4a1c7728f9">
+                    <propertyInstance
+                      Id="96ef6d7e-b89a-474d-8cc6-056eea208a43"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a535520-1a63-4f2e-89de-dfbf28ab8410">
+                    <propertyInstance
+                      Id="eaf78e38-2783-4f00-99b3-7d3eb141387c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f8fd74f2-9f20-4a22-aaa4-fcac6495a426"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3bd1aaed-58cc-4ab0-9965-c1eab901518e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ece4bed5-f046-42ab-ad8e-5265d2263989"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83872d18-23d5-424e-8ca1-25d566537d51">
+                    <propertyInstance
+                      Id="069278e5-5497-4c90-9c1d-b62ffea78a6b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="184cb666-262e-400c-80b3-112c3bdbd153">
+                    <propertyInstance
+                      Id="904ffaea-1ca9-4204-bd3c-5db5af7e2b41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c1b723c-7410-44f1-b6d7-7995e748bc6d">
+                    <propertyInstance
+                      Id="d3578411-fd4f-47fa-ad0b-0deaf655f0ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c24a03f4-491c-4d84-ac5c-1a85ae0d6790">
+                    <propertyInstance
+                      Id="ca34558f-da80-4a31-81e5-e2de17eeed38"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3399549-1cde-49d2-82e0-777912c4c522">
+                    <propertyInstance
+                      Id="df242646-9487-45e9-aeec-a4e467ad86df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="805a6df1-fc55-4805-a4df-30c2990f46bc">
+                    <propertyInstance
+                      Id="6de89039-bbf9-45be-823c-b2bf552d64a0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7bd1fa79-dd7a-4dd3-8c4f-14dc36d6b4a3"
+            name="Fly"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f74b162d-a9a7-4f92-9b33-a36935b71458"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DFly"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17dae973-f2fd-423d-8fd2-139ca46ab553"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a9b8619-6f03-440d-a91a-c478e4e883f3">
+                    <propertyInstance
+                      Id="f27b0a9e-8462-4f9e-8673-1df2d7758e9f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f5028f4-de55-462d-a061-93f06b7c07bf">
+                    <propertyInstance
+                      Id="7e65f4d0-dfe2-4932-b289-9a3e3b045209"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23b7bd53-3537-49f3-abc9-c19352d413ae">
+                    <propertyInstance
+                      Id="187aed61-4ff5-4af1-a413-f95a3315414e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cff3797-2706-49cd-9244-c46a6681da0c">
+                    <propertyInstance
+                      Id="2711d242-e544-4841-8036-6d3997202577"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25cf219e-1193-4e0c-aeef-da14435da368">
+                    <propertyInstance
+                      Id="5ddea062-7c64-45ca-9cdc-6e48fdd75afa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a449415a-bf15-4064-8a58-32e26efa38cf">
+                    <propertyInstance
+                      Id="60ea9006-0b79-4192-8286-4b150bdab5f3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ab524a31-a36b-4420-ae16-50868e15cabd"
+            name="Quack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cc1abd61-d1f5-4fe5-b703-e0f0f8e299b3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DQuack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2797e70-2ada-4265-84f1-4de632e43930"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4972dd5f-bfd2-4186-9de0-6080a740fe06">
+                    <propertyInstance
+                      Id="ae75d8a0-0925-4047-ab1f-72b8e3b61ca7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d16db077-46e8-4c4a-aab9-fa2b2b7fe798">
+                    <propertyInstance
+                      Id="822b72be-bb8f-4ab1-9698-a5080aeaaf78"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe38ed3a-b1d3-4b32-b48b-bf77a08ac70b">
+                    <propertyInstance
+                      Id="39fbde8d-3fa5-4370-9ee3-b2e04903940d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c02e41-21d8-4a9e-9785-f7744f36ef5e">
+                    <propertyInstance
+                      Id="aaf5fee5-6b6a-4258-a995-6d4a3e5007f7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14a1778a-c508-4d6c-805f-92077b4de976">
+                    <propertyInstance
+                      Id="3e648349-7e0e-4cc0-8cff-53124c3a79cb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcc63a9d-50a7-446a-ad1b-f121e3653c63">
+                    <propertyInstance
+                      Id="c454ab3d-4557-409b-bdfd-8c9816f07073"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="44a5cf01-cbb5-4ecc-84d6-4259318ab17e"
+            name="Swim"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b6a98d12-9036-4357-9718-6c0ff984e3b7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDuck Member%3DSwim"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e625c615-ad79-45ee-ae9a-2c3f038399b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb4a610a-3324-4fbc-987d-fd278136adf0">
+                    <propertyInstance
+                      Id="ec332ea9-0250-46d4-8225-5d5238766513"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7134e985-a1dc-4554-aca1-736cb41946de">
+                    <propertyInstance
+                      Id="dfda1d27-9469-4f33-8813-7cf93f02e1c0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfdd892f-1bba-497a-9b51-74e9ba37f09b">
+                    <propertyInstance
+                      Id="111ab58d-0d33-4a72-94f1-e06cadcba98f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82cbb088-b795-4c2e-a16d-d66f11bf0c98">
+                    <propertyInstance
+                      Id="d948b6c7-93b7-465c-ab93-fe7fffaad2e3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3380c86-bd05-4af1-9097-062b46b25578">
+                    <propertyInstance
+                      Id="2300d83f-9b27-40e8-8187-47d13328d20c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a90dbac-dd0b-47a3-97b8-89e4b4ad2f40">
+                    <propertyInstance
+                      Id="06e70350-3648-4467-a47a-38a0c931e31d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5791c6fa-33e5-485c-b4ab-2cc4f583a145"
+        name="DecoyDuck"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c3acddc4-ba45-40bf-8101-285cf4d2daae"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDecoyDuck"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0adb9765-5146-40ce-95b3-70194a70f973"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7473ba2e-dcf1-4ac2-83a8-ec8dc8f5abe0">
+                <propertyInstance
+                  Id="bb5466b4-02f5-40f4-bf27-879708a08f81"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1bac891d-d6b8-41ae-8464-37fa3ba364a1">
+                <propertyInstance
+                  Id="de55e72b-b5b5-46c5-9e17-2b494c559dba"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09fe8027-7c51-42b0-8f17-101f9d954060">
+                <propertyInstance
+                  Id="844a10e0-57d7-49c7-9087-861b0bad1598"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a26b708d-c939-4a21-bd6f-552a67281e53">
+                <propertyInstance
+                  Id="7d2fe3bb-c8bc-4ce2-8895-bf20a2ee0985"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="628a7c2b-6468-4651-8d53-2cff88cffe93">
+                <propertyInstance
+                  Id="f969d5ac-80f2-44c8-96df-77f4cfd5151a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c799b317-40b4-428c-805a-b24d77f41cfd"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cec41b1d-eed6-4b4c-b2ba-c267d6d1d688"
+              LastKnownName="Duck"
+              LastKnownLocation="Package_1104.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cdc3a2da-0c66-4432-bffd-bc71a43d4be6"
+            name="DecoyDuck"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bc28d35d-82a2-4565-9d41-26148abe0acb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDecoyDuck Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6558fdfe-0f24-4629-bdd7-95b8059d4585"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="178761e6-b5dd-48c0-8386-ff2b02293399">
+                    <propertyInstance
+                      Id="8f4f6cb4-d1d2-4b81-b672-e6a303a07819"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43fe7778-d39d-479d-9709-ed62e0047ba0">
+                    <propertyInstance
+                      Id="4f2e1901-b3bd-4498-8165-a20cc83136ec"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e3afad8-3563-4d30-8dbe-a3dbf0785663">
+                    <propertyInstance
+                      Id="36a3a1af-00be-41cd-86ac-6310ce335192"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb82a8a2-f725-46cc-ab5b-f3dbf2d6dc19">
+                    <propertyInstance
+                      Id="ccf51280-42d1-4748-b5c5-2c82f89f62e3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6286de02-cfc8-44c3-9124-501617508b16">
+                    <propertyInstance
+                      Id="4e07583b-4619-4580-a242-41ed76857b2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea545b89-826b-47bf-a3ae-83b8a82698d7">
+                    <propertyInstance
+                      Id="e84ddb23-4b41-446c-9bc7-3e7275e015f1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f0e77356-b770-4060-9374-e14575128421"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c418add9-f85b-488e-9c83-53e5f5824c04"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DDecoyDuck Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="93ffb052-0e38-4399-bf56-ade51fd06d04"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a15cebd9-3b4d-4540-8b06-5ae0689d2904">
+                    <propertyInstance
+                      Id="c2dd6da8-3bde-493c-bb68-2b20641732ef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe9611aa-0f01-4476-92ee-064f27cf46cd">
+                    <propertyInstance
+                      Id="9f2dd325-db17-47aa-8e03-2dc4d102cc01"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52619478-1658-409f-bbac-3921eb548596">
+                    <propertyInstance
+                      Id="cf57774a-0462-4563-8215-7a4d383b166c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8da99146-e3e1-41a3-93ac-5a5ba11005b2">
+                    <propertyInstance
+                      Id="c25b821a-8619-4039-bb53-f3262ad8d526"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="766d952d-a60d-464e-ad75-f0e9820f7656">
+                    <propertyInstance
+                      Id="0b2d3f59-d63b-4d9b-9470-54f712401ad5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56bf6c44-c7cd-4e55-8ad6-2c5d5e19370a">
+                    <propertyInstance
+                      Id="52560025-fa09-4088-b986-47bb31c754ae"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cdd7bd6e-30ac-48c4-9cea-cfa43ad67811"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package1_1104.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bbb818c9-45d0-433d-a86d-1f452659ffd4"
+        name="MallardDuck"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e82ca024-800c-4123-99b4-7df6fff6680a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DMallardDuck"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="dad2b954-89ea-4270-8ec5-ab3062a6b23e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22f30390-2086-4d32-bd1d-d8db8ce8b3bc">
+                <propertyInstance
+                  Id="26d6fa41-94ee-4ed4-a841-b32dc624487f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b1933cf-0708-4093-8d28-e8912d16295c">
+                <propertyInstance
+                  Id="d734d48d-801f-4f1e-bd4a-305e11fe7588"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d247666-45c1-4bae-a1ae-4eca9dd4bb91">
+                <propertyInstance
+                  Id="1da92847-5056-460b-915c-acd6a2192c68"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2985759f-ccf3-431c-9487-a0716b821e1c">
+                <propertyInstance
+                  Id="aa995bfb-d888-4491-94b5-66f1d7a293b6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9b807bf-1ed3-4949-9730-bd3e67de189c">
+                <propertyInstance
+                  Id="ed18e1c4-b98b-4c1d-a7b5-eae9c2bea811"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="456c8faa-8805-4334-9246-6ee87f8030d7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cec41b1d-eed6-4b4c-b2ba-c267d6d1d688"
+              LastKnownName="Duck"
+              LastKnownLocation="Package_1104.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ebf17eb3-caef-4163-b7ca-cbd9bd781635"
+            name="MallardDuck"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0d1eadd0-0513-43fd-9c51-2b7ebe09013d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DMallardDuck Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f15396d5-5e18-43f6-8487-68d7db264d62"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0d9aad4-4a18-44fa-b4e1-0c033fbe1220">
+                    <propertyInstance
+                      Id="59259fcf-1300-44ae-8237-8605009a45e9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27443cc9-54ea-4b4a-a506-d49e61e8e2e8">
+                    <propertyInstance
+                      Id="6810e5f2-950c-4909-89c0-42c4a1d35647"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2607bab-160d-4afc-a5e7-74df6aae42cc">
+                    <propertyInstance
+                      Id="d1af9bd0-1d85-4567-93ba-d03aaea78a16"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6c1024c-5a3e-4aff-b466-3d99272f34de">
+                    <propertyInstance
+                      Id="2d928298-a69a-4d7a-a3d4-06d941b743ac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f89c448f-4d84-4da2-9b82-325f0552d71b">
+                    <propertyInstance
+                      Id="b9dd95ce-62dd-47e2-b11d-1702b6b57ae6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3406092b-33d1-41a4-af14-acf7d8783e0e">
+                    <propertyInstance
+                      Id="b4a37a81-cf22-4603-ba68-7decff138417"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="8e134a4d-ff70-4e4c-9a44-cb95ce5340a6"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e3d1f523-d574-4f7b-9ead-f5b60d98a439"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DMallardDuck Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="979b1663-b671-4338-bf15-49163d4c655b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6340ae92-0257-4f62-a2f3-fe33f1475272">
+                    <propertyInstance
+                      Id="49dcf1fd-89a1-49a6-b5f0-745be345392c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc535254-0e7f-46f5-9014-5a5b69822050">
+                    <propertyInstance
+                      Id="6d813d99-97d9-458e-b301-b3300dd8c81b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbfa70c9-db1c-4f09-affc-5e0bf0ff925f">
+                    <propertyInstance
+                      Id="f4ae5ee2-01d4-4f35-880f-fa898d780621"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="398f3701-c8c9-454e-836e-070b4a8a0a8b">
+                    <propertyInstance
+                      Id="77b40813-e7df-4319-8365-266439b28f65"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66d1cfb2-d8e1-4bb0-8b3f-e57442e10a56">
+                    <propertyInstance
+                      Id="5c237532-b8dd-4ed7-9756-e2a8329c24cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d2e51fa-3c04-4c33-b64b-637a065f321d">
+                    <propertyInstance
+                      Id="39531b29-462e-4715-8fa0-1500e0da030e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="aa9fcef1-837c-4dcb-a194-1d4e390c44ae"
+        name="RedheadDuck"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4a2aa61e-17de-4241-9ad9-76aef764fb0c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRedheadDuck"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="352edb50-53ec-4fa2-879b-1faadada5a6b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfb1ed59-46ef-44b8-b40a-05e7b5d6ed02">
+                <propertyInstance
+                  Id="93426fe2-a57a-4955-9fbb-f9847f4f7d9a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="119a6825-6657-41bc-a035-9f9e216eeba3">
+                <propertyInstance
+                  Id="f616f11f-639c-4423-8aa7-bbba7bb96e1e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f0423c2-50fe-4492-9965-3f2cec0e5480">
+                <propertyInstance
+                  Id="4ddf4eee-e4b7-4680-89a6-2098ca0593d9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5121d5a6-d3f4-4e48-ba97-6dbe43261459">
+                <propertyInstance
+                  Id="8d09d5a9-62f6-4d7e-9c00-008b2c1497cd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="788a47d1-c1e3-42d4-922b-62128f9a8370">
+                <propertyInstance
+                  Id="f8773639-f901-43df-a648-03408db4d174"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="98b7ae2c-24f4-4811-b7dc-63ccf44a6932"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cec41b1d-eed6-4b4c-b2ba-c267d6d1d688"
+              LastKnownName="Duck"
+              LastKnownLocation="Package_1104.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7df2e93d-254d-40fd-8efc-6ae45ebba886"
+            name="RedheadDuck"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="72f03733-ed1a-498c-b5d7-b6c586bc6c88"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRedheadDuck Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a13649f-e2f8-47ba-a7ca-347c4208d555"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ee6a7c0-190c-4ae5-9fb5-6a8805d50da3">
+                    <propertyInstance
+                      Id="b799b2ee-d86c-4641-8918-b81bb8985e0c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="675f23c8-b1e3-45c8-a30f-88dc0cfff26d">
+                    <propertyInstance
+                      Id="40b9e8c2-9781-48a9-9061-c54231211d4f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aeb26279-002b-4c10-84a6-0bcff30602e8">
+                    <propertyInstance
+                      Id="38ba85af-a846-44cb-a157-a15c0d20b755"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1464c8b4-39b3-4ca3-873c-00d72467036d">
+                    <propertyInstance
+                      Id="ff157a6d-c725-4e52-84e3-1104a757d819"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c20bbb6-2269-4e37-8bee-a8dde418beb1">
+                    <propertyInstance
+                      Id="ee364209-2873-455d-95ea-213c162477fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24b946c4-ffad-43c0-b8b6-4dcc574db020">
+                    <propertyInstance
+                      Id="d371ea76-fe5d-4e54-b20d-0438eb5e27a8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5eab0904-3b5c-4118-b4e6-1c322b73d81b"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7a54096e-a95f-4d17-ae00-5fcebf0d96d3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FG:%2FMy Work%2FMyProject%2FDesignPattern%2FDesignPattern%2FStrategyPatternDuckGameExample%2Fbin%2FDebug%2FStrategyPatternDuckGameExample.exe&quot; Namespace%3DStrategyPatternDuckGameExample Type%3DRedheadDuck Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fc3b4725-60ef-45ab-80c7-27a22df15127"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8afecd40-6dd0-40b6-af69-c03cc948507e">
+                    <propertyInstance
+                      Id="6fe3d09d-e65e-4764-af81-b8ebdb2794b9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62a7ef16-3047-46e0-930d-528a60fddd21">
+                    <propertyInstance
+                      Id="46a3e413-d722-46f6-8eea-113c86d7f1a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5366737c-ec52-423f-ac33-cb1a746c0829">
+                    <propertyInstance
+                      Id="33f8830a-c7db-4d57-9ce0-d72516d96a6c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc5b65ef-459f-46c1-98ae-0719c65b631f">
+                    <propertyInstance
+                      Id="ddbced76-ffdc-434a-87fa-6accad91afa1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc8d9d32-b67a-4dbc-9d0e-4c5ea1b0812e">
+                    <propertyInstance
+                      Id="f99a0769-2cc7-49e9-967c-29982b251011"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acf6cefb-d55e-4197-b8ae-21a50a0748f5">
+                    <propertyInstance
+                      Id="b2741f0a-3cbf-452c-9591-c4f5e867aa02"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7cf067f4-bb9c-4912-bb0a-c920416cd3df"
+        LastKnownName="Implementation"
+        LastKnownLocation="Package2_1104.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

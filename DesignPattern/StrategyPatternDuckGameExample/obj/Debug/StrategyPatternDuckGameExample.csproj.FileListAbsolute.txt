@@ -1,0 +1,6 @@
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\bin\Debug\StrategyPatternDuckGameExample.exe.config
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\obj\Debug\StrategyPatternDuckGameExample.csprojResolveAssemblyReference.cache
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\bin\Debug\StrategyPatternDuckGameExample.exe
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\bin\Debug\StrategyPatternDuckGameExample.pdb
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\obj\Debug\StrategyPatternDuckGameExample.exe
+G:\My Work\MyProject\DesignPattern\DesignPattern\StrategyPatternDuckGameExample\obj\Debug\StrategyPatternDuckGameExample.pdb
